@@ -1,0 +1,142 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff7fb;
+  color: #444;
+}
+
+/* =========================
+   TOP HEADER
+========================= */
+.top-header {
+  background-color: #ffffff;
+  border-bottom: 2px dashed #ffd6e8;
+}
+
+.top-header h2 {
+  font-weight: 600;
+  color: #ff7aa2;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  background: linear-gradient(135deg, #fbd3e9, #bbded6);
+  padding: 60px 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.hero h1 {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.hero p {
+  font-size: 0.95rem;
+}
+
+/* =========================
+   PROFILE IMAGE
+========================= */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
+}
+
+/* =========================
+   CARD SECTION
+========================= */
+.card {
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  color: #ff7aa2;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* LIST */
+.card ul {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+}
+
+/* =========================
+   SKILL BADGE
+========================= */
+.badge-skill {
+  background-color: #ffe6f0;
+  color: #444;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin: 4px 3px;
+  display: inline-block;
+}
+
+/* =========================
+   ABOUT ME
+========================= */
+.about-me {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about-me h4 {
+  color: #ff7aa2;
+  font-weight: 600;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background-color: #bbded6;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 576px) {
+  .profile-img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero {
+    padding: 45px 15px;
+  }
+
+  .top-header h2 {
+    font-size: 1.3rem;
+  }
+}
